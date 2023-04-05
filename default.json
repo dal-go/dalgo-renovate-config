@@ -5,19 +5,8 @@
   "packageRules": [
     {
       "matchPackagePatterns": [
-        "strongo/dalgo"
-      ],
-      "matchUpdateTypes": [
-        "minor",
-        "patch",
-        "pin"
-      ],
-      "automerge": true,
-      "automergeType": "branch"
-    },
-    {
-      "matchPackagePatterns": [
-        "strongo"
+        "github.com/dal-go/",
+        "github.com/strongo/"
       ],
       "matchUpdateTypes": [
         "minor",
@@ -30,7 +19,8 @@
     {
       "matchUpdateTypes": [
         "minor",
-        "patch"
+        "patch",
+        "pin"
       ],
       "automerge": true,
       "automergeType": "branch"
