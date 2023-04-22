@@ -6,7 +6,7 @@
   "packageRules": [
     {
       "groupName": "dalgo & strongo non major deps",
-      "groupSlug": "dalgo-strongo-minor-patch"
+      "groupSlug": "dalgo-strongo-minor-patch",
       "matchPackagePatterns": [
         "github.com/dal-go/",
         "github.com/strongo/"
@@ -21,7 +21,7 @@
     },
     {
       "groupName": "3d-parties non major deps",
-      "groupSlug": "3d-parties-minor-patch"
+      "groupSlug": "3d-parties-minor-patch",
       "matchUpdateTypes": [
         "minor",
         "patch",
