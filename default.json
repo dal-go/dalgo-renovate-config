@@ -11,22 +11,12 @@
         "github.com/dal-go/",
         "github.com/strongo/"
       ],
-      "matchUpdateTypes": [
-        "minor",
-        "patch",
-        "pin"
-      ],
       "automerge": true,
       "automergeType": "branch"
     },
     {
-      "groupName": "3d-parties non major deps",
-      "groupSlug": "3d-parties-minor-patch",
-      "matchUpdateTypes": [
-        "minor",
-        "patch",
-        "pin"
-      ],
+      "groupName": "3d-parties",
+      "groupSlug": "3d-parties",
       "automerge": true,
       "automergeType": "branch"
     }
