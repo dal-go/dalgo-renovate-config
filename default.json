@@ -5,6 +5,22 @@
   ],
   "packageRules": [
     {
+      "groupName": "go",
+      "matchPackagePatterns": [
+        "go",
+      ],
+      "matchUpdateTypes": ["major", "minor"],
+      "automerge": false
+    },
+    {
+      "groupName": "go",
+      "matchPackagePatterns": [
+        "go",
+      ],
+      "matchUpdateTypes": ["patch"],
+      "automerge": true
+    },
+    {
       "groupName": "dalgo & strongo non major deps",
       "groupSlug": "dalgo-strongo-minor-patch",
       "matchPackagePatterns": [
