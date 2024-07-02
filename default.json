@@ -7,7 +7,7 @@
     {
       "groupName": "go",
       "matchPackagePatterns": [
-        "go",
+        "go"
       ],
       "matchUpdateTypes": ["major", "minor"],
       "automerge": false
@@ -15,7 +15,7 @@
     {
       "groupName": "go",
       "matchPackagePatterns": [
-        "go",
+        "go"
       ],
       "matchUpdateTypes": ["patch"],
       "automerge": true
