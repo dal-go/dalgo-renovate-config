@@ -40,8 +40,14 @@
     {
       "groupName": "3d-parties",
       "groupSlug": "3d-parties",
+      "matchManagers": ["gomod"],
       "automerge": true,
       "automergeType": "branch"
+    },
+    {
+      "description": "Separate PR for every GitHub Actions update",
+      "matchManagers": ["github-actions"],
+      "groupName": null
     }
   ]
 }
