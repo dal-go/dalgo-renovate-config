@@ -45,6 +45,12 @@
       "automergeType": "branch"
     },
     {
+      "description": "Go major module updates require a separate AI migration",
+      "matchManagers": ["gomod"],
+      "matchUpdateTypes": ["major"],
+      "automerge": false
+    },
+    {
       "description": "Separate PR for every GitHub Actions update",
       "matchManagers": ["github-actions"],
       "groupName": null
