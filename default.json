@@ -45,8 +45,9 @@
       "automergeType": "branch"
     },
     {
-      "description": "Go major module updates require a separate AI migration",
+      "description": "go-github major updates require a separate AI migration",
       "matchManagers": ["gomod"],
+      "matchPackagePatterns": ["^github\\.com/google/go-github(/v[0-9]+)?$"],
       "matchUpdateTypes": ["major"],
       "automerge": false
     },
